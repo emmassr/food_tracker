@@ -1,8 +1,12 @@
-class Main:
-    def start(self):
+class Start:
+    def run(self):
         print('Welcome')
         print('Please pick an option')
         print('These are your options')
 
-main = Main()
-main.start()
+    def number(self):
+        return 5
+
+
+# main = Start()
+# main.run()
